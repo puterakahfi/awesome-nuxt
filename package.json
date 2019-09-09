@@ -1,0 +1,19 @@
+{
+  "name": "awesome-nuxt",
+  "version": "1.0.0",
+  "description": "awesome nuxt web version",
+  "main": "index.js",
+  "repository": "git@github.com:puterakahfi/awesome-nuxt.git",
+  "author": "puterakahfi <puterakahfi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev ",
+    "build": "vuepress build ",
+    "predeploy": "vuepress build",
+    "deploy": "gh-pages -d .vuepress/dist"
+  },
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "vuepress": "^1.0.4"
+  }
+}
